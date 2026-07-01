@@ -37,6 +37,8 @@ install -m 0644 %{name}.conf \
 install -m 0644 99-usb-sync.rules \
     %{buildroot}%{_prefix}/lib/udev/rules.d/99-%{name}.rules
 
+%post
+/usr/bin/udevadm control --reload-rules
 
 %files
 %license LICENSE
