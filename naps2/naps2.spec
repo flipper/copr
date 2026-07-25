@@ -9,7 +9,7 @@ Source0:        https://codeload.github.com/cyanfish/naps2/tar.gz/refs/tags/v%{v
 
 ExclusiveArch:  x86_64 aarch64
 
-BuildRequires:  dotnet-sdk-9.0
+BuildRequires:  dotnet-sdk-10.0
 BuildRequires:  gtk3-devel
 
 Requires:       gtk3
