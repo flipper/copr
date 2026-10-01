@@ -1,5 +1,5 @@
 Name:           naps2
-Version:        8.3.2
+Version:        8.4.0
 Release:        1%{?dist}
 Summary:        NAPS2 GTK desktop application
 
