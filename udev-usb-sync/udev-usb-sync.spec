@@ -4,8 +4,8 @@ Release:        1%{?dist}
 Summary:        Disables write-cache for USB Storage Devices
 
 License:        MIT
-URL:            https://gitlab.manjaro.org/applications/udev-usb-sync
-Source0:        https://gitlab.manjaro.org/applications/udev-usb-sync/-/archive/%{version}/udev-usb-sync-%{version}.tar.gz
+URL:            https://github.com/manjaro-contrib/applications-udev-usb-sync
+Source0:        https://github.com/manjaro-contrib/applications-udev-usb-sync/archive/refs/tags/%{version}.tar.gz
 
 BuildArch:      noarch
 
