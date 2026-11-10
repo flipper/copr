@@ -16,7 +16,7 @@ AutoReqProv:    no
 Disables write-cache for USB Storage Devices
 
 %prep
-%autosetup -n udev-usb-sync-%{version}
+%autosetup -n applications-udev-usb-sync-%{version}
 
 %install
 rm -rf %{buildroot}
