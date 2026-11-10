@@ -63,7 +63,7 @@ install -pm 0644 NAPS2.Setup/config/linux/com.naps2.Naps2.metainfo.xml \
     %{buildroot}%{_datadir}/metainfo/
 
 install -d %{buildroot}%{_datadir}/icons/hicolor/128x128/apps
-install -pm 0644 NAPS2.Lib/Icons/scanner-128.png \
+install -pm 0644 NAPS2.Lib/Icons/scanner_128.png \
     %{buildroot}%{_datadir}/icons/hicolor/128x128/apps/com.naps2.Naps2.png
 
 %files
